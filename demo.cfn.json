@@ -20,7 +20,7 @@
         "VpcId" : { "Ref" : "rmaurycfndemo" },
         "GroupDescription" : "Enable SSH access via port 22",
         "SecurityGroupIngress" : [
-          {"IpProtocol" : "tcp", "FromPort" : 22, "ToPort" : 22, "CidrIp" : "0.0.0.0/0"}
+          {"IpProtocol" : "tcp", "FromPort" : 22, "ToPort" : 22, "CidrIp" : "10.0.0.0/8"}
          ],
         "Tags" : [ {"Key" : "Name", "Value" : "rmaurycfndemo" } ]
       }
